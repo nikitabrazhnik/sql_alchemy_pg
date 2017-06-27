@@ -28,3 +28,17 @@ if __name__ == '__main__':
     for i in nl:
         statement = table.insert().values(firstname=str(i), lasname=str(i)+'ln', email=nl[0]+'@'+i, pwdhash=str(random.randint(0,10000000)))
         result = con.execute(statement)
+
+https://www.postgresql.org/docs/8.2/static/sql-delete.html
+http://ps.readthedocs.io/ru/latest/random.html
+https://pythonworld.ru/tipy-dannyx-v-python/slovari-dict-funkcii-i-metody-slovarej.html
+https://pythonworld.ru/tipy-dannyx-v-python/kortezhi-tuple.html
+https://pythonworld.ru/tipy-dannyx-v-python/spiski-list-funkcii-i-metody-spiskov.html
+
+https://suhas.org/sqlalchemy-tutorial/
+https://www.compose.com/articles/using-postgresql-through-sqlalchemy/
+http://docs.sqlalchemy.org/en/latest/orm/tutorial.html
+
+https://scrapy.org/
+http://www.rmunn.com/sqlalchemy-tutorial/tutorial.html
+
