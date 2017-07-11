@@ -3,3 +3,4 @@ import sqlalchemy
 
 Base = declarative_base()
 
+
